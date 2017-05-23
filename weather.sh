@@ -2,7 +2,7 @@
 mkdir -p /tmp/weather
 cd ~
 # python -m pywws.Hourly ~/weather/data
-pywws-hourly -vvv ~/weather/data
+/usr/local/bin/pywws-hourly -vvv ~/weather/data
 
 #function txt2html()
 #{
